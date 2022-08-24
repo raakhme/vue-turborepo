@@ -1,0 +1,30 @@
+{
+  "name": "vue-turbo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "rollup": "^2.78.1",
+    "turbo": "latest",
+    "vite": "^3.0.9"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "packageManager": "yarn@1.22.17"
+}

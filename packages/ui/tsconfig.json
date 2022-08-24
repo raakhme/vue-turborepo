@@ -1,0 +1,8 @@
+{
+  "extends": "tsconfig/vue-library.json",
+  "compilerOptions": {
+    "outDir": "./build"
+  },
+  "include": ["."],
+  "exclude": ["build", "node_modules"]
+}

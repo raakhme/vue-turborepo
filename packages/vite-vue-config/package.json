@@ -1,0 +1,9 @@
+{
+  "name": "vite-vue-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3"
+  }
+}
